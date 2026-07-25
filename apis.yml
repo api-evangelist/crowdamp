@@ -1,23 +1,84 @@
 aid: crowdamp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdamp.png
 name: Crowdamp
-description: Crowdamp is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Crowdamp is a privately held Lightspeed Venture Partners portfolio company
+  co-founded by Ruben Mayer-Hirshfeld and Alexandra Botez. The company built SuperFan,
+  a creator-economy messaging product that let fans text their favorite social media
+  stars and receive a personalized reply, using natural language processing to help
+  those creators respond efficiently at scale across their whole audience. As of the
+  July 2026 enrichment pass Crowdamp publishes no developer surface of any kind: there
+  is no developer portal, no documentation, no API reference, no OpenAPI or other machine-readable
+  specification, no SDK packages in any public registry, and no working product website.
+  The SuperFan domain superfanapp.com no longer resolves to the product and is listed
+  for sale through a domain reseller, indicating the product is no longer operating.
+  This profile is retained as a portfolio-graph record rather than as an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/crowdamp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
+x-status: private
+x-product: SuperFan
+x-founders:
+- Ruben Mayer-Hirshfeld
+- Alexandra Botez
+x-former-website:
+  url: https://superfanapp.com
+  status: parked
+  note: Redirects to a HugeDomains listing (HTTP 200 on the reseller profile page);
+    the product site is no longer live.
+  probed: '2026-07-20'
+x-research:
+  source: https://lsvp.com/company/crowdamp/
+  probed: '2026-07-20'
+  method: searched
+  findings:
+  - Lightspeed portfolio page confirms Crowdamp, status Private, product SuperFan,
+    two named co-founders.
+  - superfanapp.com, api.superfanapp.com and docs.superfanapp.com all redirect to a
+    HugeDomains for-sale listing; no product or developer surface remains.
+  - crowdamp.com is an unrelated parked domain on ParkingCrew nameservers (registered
+    2011).
+  - No package named crowdamp exists on npm (404) or PyPI (404).
+  - /.well-known/security.txt, /openid-configuration, /api-catalog and /ai-plugin.json
+    on superfanapp.com return the reseller parking HTML rather than real documents;
+    recorded as not present.
+  - A dormant github.com/CrowdAmp organization exists (created 2016, four repositories,
+    last push 2016) but carries no metadata tying it to this company, so it is not
+    claimed as the official GitHub organization.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Creator Economy
+- Messaging
+- Social Media
+- Natural Language Processing
+- Venture Backed
+- Lightspeed Venture Partners
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
