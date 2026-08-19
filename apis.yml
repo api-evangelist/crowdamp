@@ -59,7 +59,7 @@ x-research:
   - A dormant github.com/CrowdAmp organization exists (created 2016, four repositories,
     last push 2016) but carries no metadata tying it to this company, so it is not
     claimed as the official GitHub organization.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
