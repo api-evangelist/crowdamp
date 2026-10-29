@@ -64,18 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Crowdamp is a privately held Lightspeed Venture Partners portfolio company co-founded by Ruben Mayer-Hirshfeld and Alexandra Botez. The company built SuperFan, a creator-economy messaging product that let fans text their favorite social media stars and receive a personalized reply, using natural language processing to help those creators respond efficiently at scale.
+Crowdamp is a privately held Lightspeed Venture Partners portfolio company co-founded by Ruben Mayer-Hirshfeld and Alexandra Botez. The company built SuperFan, a creator-economy messaging product that let fans text their favorite social media stars and receive a personalized reply, using natural language processing to help those creators respond efficiently at scale across their whole audience. As of the July 2026 enrichment pass Crowdamp publishes no developer surface of any kind: there is no developer portal, no documentation, no API reference, no OpenAPI or other machine-readable specification, no SDK packages in any public registry, and no working product website. The SuperFan domain superfanapp.com no longer resolves to the product and is listed for sale through a domain reseller, indicating the product is no longer operating. This profile is retained as a portfolio-graph record rather than as an API provider.
 
-Backed by: lightspeed-venture-partners
+**Areas:** Company · Creator Economy · Messaging · Social Media · Natural Language Processing · Lightspeed Venture Partners
 
-## API surface
+## Crowdamp on APIs.io
 
-None. The July 2026 enrichment pass found no developer portal, documentation, API reference, specification, SDK packages, or public developer surface of any kind.
+Everything profiled for Crowdamp is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/crowdamp/](https://apis.io/providers/crowdamp/)** — or go straight to one of the APIs or properties below.
 
-- Product domain `superfanapp.com` (and `api.` / `docs.` subdomains) redirects to a HugeDomains for-sale listing — the product site is no longer live.
-- `crowdamp.com` is an unrelated parked domain on ParkingCrew nameservers.
-- No `crowdamp` package on npm or PyPI.
-- `/.well-known/` probes returned the reseller parking page, not real documents.
-- A dormant `github.com/CrowdAmp` organization exists (2016, last push 2016) but nothing ties it to this company, so it is not claimed here.
+## API Evangelist rating
 
-This repository is retained as a portfolio-graph record rather than as an API provider profile.
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Crowdamp: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/crowdamp/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
